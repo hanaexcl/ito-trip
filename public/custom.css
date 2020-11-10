@@ -1,0 +1,107 @@
+/*整體布局*/
+body {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.logo-size {
+    width: 200px;
+    height: 60px;
+}
+
+.content-wrapper {
+    background-image: url("background_reman.png");
+    background-color: #545454;
+    /*background-repeat: round;*/
+    background-size: 700px;
+}
+
+/*.main-header, .main-footer {*/
+/*    background-image: url("t1s.png");*/
+/*}*/
+
+.main-footer {
+    background-image: url("t1s.png");
+    min-height: 57px;
+}
+
+.navbar-collapse {
+    opacity: 1;
+    background-color: #f8f9fa;
+}
+
+/*首頁美化*/
+.home-card {
+    padding: 15px .5rem;
+    min-height: 80vh;
+    position: relative;
+}
+
+.home-card .bg {
+    background: url("/show.jpg");
+    position: absolute;
+    min-height: 80vh;
+    z-index: 1;
+}
+
+.home-card .bg-blur {
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(3px);
+}
+
+.home-card .home-card2 {
+    position: absolute;
+    min-height: 80vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+.home-card .home-card2 .content-front {
+    position:absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0px .5em;
+}
+
+.home-card .home-card2 .content-btn {
+    position:absolute;
+    top: 60%;
+    left: 30%;
+    right: 30%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*故事圖鑑美化*/
+.search-input {
+    margin: 20px 0px;
+}
+
+.ellipsis-context {
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
